@@ -1,0 +1,14 @@
+{
+  "name": "wujie-vue-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "main": "pnpm dev -F @wujie-demo/main",
+    "vue": "pnpm dev -F @wujie-demo/vue",
+    "react": "pnpm dev -F @wujie-demo/react"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
