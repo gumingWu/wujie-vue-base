@@ -1,15 +1,16 @@
 {
   "name": "@wujie-demo/react",
   "private": true,
-  "author":"gumingWu <15626185054@163.com>",
+  "author": "gumingWu <15626185054@163.com>",
   "scripts": {
-    "dev": "umi dev",
+    "dev": "cross-env PORT=777 umi dev",
     "build": "umi build",
     "postinstall": "umi setup",
     "setup": "umi setup",
     "start": "npm run dev"
   },
   "dependencies": {
+    "cross-env": "^7.0.3",
     "umi": "^4.0.42"
   },
   "devDependencies": {
